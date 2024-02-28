@@ -1,9 +1,9 @@
-use std::collections::{HashMap, HashSet};
+use std::collections::HashSet;
 use std::path::PathBuf;
 
 use serde::Serialize;
 
-use crate::{formats::ScanResult, ground_truth::JulietGroundTruth};
+use crate::formats::ScanResult;
 use crate::formats::ScanLocation;
 use crate::ground_truth::GroundTruth;
 

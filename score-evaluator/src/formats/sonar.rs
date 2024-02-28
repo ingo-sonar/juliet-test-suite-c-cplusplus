@@ -1,3 +1,4 @@
+use std::collections::HashSet;
 use std::path::PathBuf;
 use serde::Deserialize;
 use super::{ScanLocation, ScanResult};
@@ -8,6 +9,7 @@ pub fn parse_sonar_results(input: PathBuf) -> ScanResult {
     let mut results = ScanResult::default();
     for issue in sonar_issues.into_iter().flatten() {
         if issue.severity != "BLOCKER" { continue; }
+        if !issue.tags.contains("cwe") { continue; }
         let location = ScanLocation {
             file: issue.component.split('/').last().expect("prefix").to_string(),
             line: issue.line,
@@ -22,4 +24,5 @@ struct SonarIssue {
     line: usize,
     component: String,
     severity: String,
+    tags: HashSet<String>,
 }

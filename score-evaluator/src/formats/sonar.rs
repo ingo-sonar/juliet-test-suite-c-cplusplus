@@ -7,6 +7,7 @@ pub fn parse_sonar_results(input: PathBuf) -> ScanResult {
     let sonar_issues: Vec<Vec<SonarIssue>> = serde_json::from_str(&contents).expect("invalid json");
     let mut results = ScanResult::default();
     for issue in sonar_issues.into_iter().flatten() {
+        if issue.severity != "BLOCKER" { continue; }
         let location = ScanLocation {
             file: issue.component.split('/').last().expect("prefix").to_string(),
             line: issue.line,
@@ -19,5 +20,6 @@ pub fn parse_sonar_results(input: PathBuf) -> ScanResult {
 #[derive(Deserialize)]
 struct SonarIssue {
     line: usize,
-    component: String
+    component: String,
+    severity: String,
 }

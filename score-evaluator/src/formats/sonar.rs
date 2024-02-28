@@ -1,6 +1,8 @@
 use std::collections::HashSet;
 use std::path::PathBuf;
+
 use serde::Deserialize;
+
 use super::{ScanLocation, ScanResult};
 
 pub fn parse_sonar_results(input: PathBuf) -> ScanResult {

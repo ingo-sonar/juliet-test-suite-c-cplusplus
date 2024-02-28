@@ -1,14 +1,16 @@
-mod formats;
-mod ground_truth;
-mod score;
-
 use std::path::PathBuf;
+
 use clap::Parser;
 use log::LevelFilter;
 use simplelog::{ColorChoice, Config, TerminalMode, TermLogger};
-use ground_truth::{parse_ground_truth, JulietGroundTruth};
-use formats::{sonar::parse_sonar_results, ScanResult};
+
+use formats::sonar::parse_sonar_results;
+use ground_truth::parse_ground_truth;
 use score::calculate_score;
+
+mod formats;
+mod ground_truth;
+mod score;
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]

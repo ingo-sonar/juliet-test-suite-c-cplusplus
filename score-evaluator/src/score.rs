@@ -3,8 +3,8 @@ use std::path::PathBuf;
 
 use serde::Serialize;
 
-use crate::formats::ScanResult;
 use crate::formats::ScanLocation;
+use crate::formats::ScanResult;
 use crate::ground_truth::GroundTruth;
 
 pub fn calculate_score(ground_truth: GroundTruth, scan_results: ScanResult) -> ScoreResults {

@@ -1,7 +1,8 @@
-use std::collections::{HashMap, HashSet};
 use std::path::PathBuf;
+
 use serde::Deserialize;
-use crate::formats::{ScanLocation, ScanResult};
+
+use crate::formats::ScanLocation;
 
 pub fn parse_ground_truth(manifest_xml: PathBuf) -> GroundTruth {
     let contents = std::fs::read_to_string(manifest_xml).expect("could not read manifest xml");

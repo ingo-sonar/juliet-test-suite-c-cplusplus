@@ -1,9 +1,64 @@
+use std::collections::{HashMap, HashSet};
 use std::path::PathBuf;
+use serde::Deserialize;
+use crate::formats::{ScanLocation, ScanResult};
 
-pub fn parse_ground_truth(manifest_xml: PathBuf) -> JulietGroundTruth {
-    todo!()
+pub fn parse_ground_truth(manifest_xml: PathBuf) -> GroundTruth {
+    let contents = std::fs::read_to_string(manifest_xml).expect("could not read manifest xml");
+    let juliet_ground_truth: JulietGroundTruth = serde_xml_rs::from_str(&contents).expect("could not parse manifest xml");
+    juliet_ground_truth.into()
+}
+#[derive(Default)]
+pub struct GroundTruth {
+    pub positive_tests: Vec<PositiveTest>,
+    pub negative_tests: Vec<NegativeTest>,
 }
 
+pub struct PositiveTest {
+    pub locations: Vec<ScanLocation>
+}
+
+pub struct NegativeTest {
+    pub file: String,
+}
+
+impl GroundTruth {
+    pub fn keep_test_cases(&mut self, test_cases: Vec<String>) {
+        self.positive_tests.retain_mut(|test| {
+            test.locations.retain(|loc| {
+                test_cases.iter().any(|x| loc.file.starts_with(x))
+            });
+            !test.locations.is_empty()
+        });
+        self.negative_tests.retain(|test| {
+            test_cases.iter().any(|x| test.file.starts_with(x))
+        });
+    }
+}
+
+impl From<JulietGroundTruth> for GroundTruth {
+    fn from(value: JulietGroundTruth) -> Self {
+        let mut result = GroundTruth::default();
+        for test_case in value.test_cases {
+            for juliet_file in test_case.files {
+                if let Some(flaws) = juliet_file.flaws {
+                    let mut locations: Vec<ScanLocation> = vec!();
+                    for flaw in flaws {
+                        let loc = ScanLocation {
+                            file: juliet_file.path.clone(),
+                            line: flaw.line.parse().expect("line parse"),
+                        };
+                        locations.push(loc);
+                    }
+                    result.positive_tests.push(PositiveTest { locations })
+                } else {
+                    result.negative_tests.push(NegativeTest { file: juliet_file.path.clone() });
+                }
+            }
+        }
+        result
+    }
+}
 
 /// juliet manifest.xml
 /// ```xml
@@ -15,19 +70,34 @@ pub fn parse_ground_truth(manifest_xml: PathBuf) -> JulietGroundTruth {
 ///  </testcase>
 /// </container
 /// ```
+
+#[derive(Deserialize)]
 pub struct JulietGroundTruth {
-    pub container: JulietContainer
+    #[serde(rename = "testcase")]
+    pub test_cases: Vec<JulietTestCase>,
 }
-pub struct JulietContainer {
-    pub test_case: Vec<JulietTestCase>,
+impl JulietGroundTruth {
+    pub fn keep_test_cases(&mut self, test_cases: Vec<String>) {
+        self.test_cases.retain_mut(|test_case| {
+            test_case.files.retain(|file| {
+                test_cases.iter().any(|name| file.path.starts_with(name))
+            });
+            !test_case.files.is_empty()
+        })
+    }
 }
+#[derive(Deserialize)]
 pub struct JulietTestCase {
-    pub file: Vec<JulietFile>,
+    #[serde(rename = "file")]
+    pub files: Vec<JulietFile>,
 }
+#[derive(Deserialize)]
 pub struct JulietFile {
     pub path: String,
-    pub flaw: Vec<JulietFlaw>,
+    #[serde[rename = "flaw"]]
+    pub flaws: Option<Vec<JulietFlaw>>,
 }
+#[derive(Deserialize)]
 pub struct JulietFlaw {
     pub name: String,
     pub line: String,

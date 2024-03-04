@@ -1,4 +1,5 @@
 pub mod sonar;
+pub mod sarif;
 
 #[derive(Default)]
 pub struct ScanResult {

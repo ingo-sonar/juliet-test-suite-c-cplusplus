@@ -7,6 +7,7 @@ use simplelog::{ColorChoice, Config, TerminalMode, TermLogger};
 use formats::sonar::parse_sonar_results;
 use ground_truth::parse_ground_truth;
 use score::calculate_score;
+use crate::formats::sarif::parse_sarif_results;
 
 mod formats;
 mod ground_truth;
@@ -51,6 +52,7 @@ fn main() {
 
     let results = match &args.format as &str {
         "sonarqube" => parse_sonar_results(args.results_json),
+        "sarif" => parse_sarif_results(args.results_json),
         _ => panic!("invalid value for 'format'"),
     };
     log::info!("Loaded {} results.", results.locations.len());

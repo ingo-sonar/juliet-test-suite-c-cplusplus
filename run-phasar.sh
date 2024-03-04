@@ -1,9 +1,10 @@
 rm -rf phasar
 mkdir phasar
 cd phasar
-time find .. -name 'CWE415*.c*' | while read line; do clang -g -S -emit-llvm -I../testcasesupport $line; done
+time find .. -name 'CWE415*.c*' | while read line; do clang -g -c -emit-llvm -I../testcasesupport $line; done
+
 i=0
-time (echo "[" && ls *.ll | while read line; do 
+time (echo "[" && ls *.bc | while read line; do
     if [ "$i" -ne 0 ]; then
         echo ","
     fi

@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::path::PathBuf;
 use clap::Parser;
 use log::LevelFilter;
@@ -8,6 +9,10 @@ use walkdir::WalkDir;
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
+    // Stats about the benchmark
+    #[arg(short, long)]
+    stats: bool,
+
     /// Generated Ground Truth manifest.xml
     #[arg(short, long)]
     output: PathBuf,
@@ -18,8 +23,37 @@ fn main() {
         .expect("could not initialize logger");
 
     let args = Args::parse();
+    if args.stats {
+        print_stats();
+    }
     let ground_truth = generate_ground_truth();
     ground_truth.write_to(args.output);
+}
+
+fn print_stats() {
+    let mut found: HashMap<String, usize> = HashMap::new();
+    let mut total = 0usize;
+    for entry in WalkDir::new("../testcases")
+        .into_iter()
+        .filter_map(|e| e.ok())
+    {
+        let file = entry.file_name().to_string_lossy();
+        if file.ends_with(".c") || file.ends_with(".cpp") {
+            let text = std::fs::read_to_string(entry.path()).expect("read");
+            if text.contains("int main(") {
+                let dir = entry.path().to_str().expect("path").strip_prefix("../testcases").expect("x")
+                    .strip_prefix(std::path::MAIN_SEPARATOR).expect("prefix")
+                    .split(std::path::MAIN_SEPARATOR).into_iter().next().expect("").to_string();
+                *found.entry(dir).or_default() += 1;
+                total += 1;
+            }
+        }
+    }
+
+    log::info!("found total of {} tests", total);
+    for (dir, num) in found {
+        log::info!("in {}: {} tests", dir, num);
+    }
 }
 
 fn generate_ground_truth() -> JulietGroundTruth {

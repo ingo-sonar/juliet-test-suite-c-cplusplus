@@ -1,20 +1,20 @@
 use std::path::PathBuf;
-
-use serde::Deserialize;
+use quick_xml::de::from_str;
+use serde::{Deserialize, Serialize};
 
 use crate::formats::ScanLocation;
 
 pub fn parse_ground_truth(manifest_xml: PathBuf) -> GroundTruth {
     let contents = std::fs::read_to_string(manifest_xml).expect("could not read manifest xml");
-    let juliet_ground_truth: JulietGroundTruth = serde_xml_rs::from_str(&contents).expect("could not parse manifest xml");
+    let juliet_ground_truth: JulietGroundTruth = from_str(&contents).expect("could not parse manifest xml");
     juliet_ground_truth.into()
 }
+
 #[derive(Default)]
 pub struct GroundTruth {
     pub positive_tests: Vec<PositiveTest>,
     pub negative_tests: Vec<NegativeTest>,
 }
-
 pub struct PositiveTest {
     pub locations: Vec<ScanLocation>
 }
@@ -72,7 +72,7 @@ impl From<JulietGroundTruth> for GroundTruth {
 /// </container
 /// ```
 
-#[derive(Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct JulietGroundTruth {
     #[serde(rename = "testcase")]
     pub test_cases: Vec<JulietTestCase>,
@@ -86,19 +86,24 @@ impl JulietGroundTruth {
             !test_case.files.is_empty()
         })
     }
+
+    pub fn write_to(&self, manifest_xml: PathBuf) {
+        let str: String = quick_xml::se::to_string(&self).expect("serialize");
+        std::fs::write(manifest_xml, str);
+    }
 }
-#[derive(Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct JulietTestCase {
     #[serde(rename = "file")]
     pub files: Vec<JulietFile>,
 }
-#[derive(Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct JulietFile {
     pub path: String,
     #[serde[rename = "flaw"]]
     pub flaws: Option<Vec<JulietFlaw>>,
 }
-#[derive(Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct JulietFlaw {
     pub name: String,
     pub line: String,

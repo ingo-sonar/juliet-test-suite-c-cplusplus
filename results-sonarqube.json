@@ -79291,11 +79291,11 @@
       "severity": "BLOCKER",
       "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
       "project": "ingo-sonar_juliet-test-suite-c-cplusplus",
-      "line": 32,
+      "line": 33,
       "hash": "de08b692f3304718b0df8e3ca6774ccc",
       "textRange": {
-        "startLine": 32,
-        "endLine": 32,
+        "startLine": 33,
+        "endLine": 33,
         "startOffset": 12,
         "endOffset": 26
       },
@@ -79305,8 +79305,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79315,8 +79315,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 58,
-                "endLine": 58,
+                "startLine": 59,
+                "endLine": 59,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79325,8 +79325,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 58,
-                "endLine": 58,
+                "startLine": 59,
+                "endLine": 59,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79335,8 +79335,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79345,8 +79345,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 58,
-                "endLine": 58,
+                "startLine": 59,
+                "endLine": 59,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79355,8 +79355,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 52,
-                "endLine": 52,
+                "startLine": 53,
+                "endLine": 53,
                 "startOffset": 13,
                 "endOffset": 35
               },
@@ -79395,8 +79395,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 52,
-                "endLine": 52,
+                "startLine": 53,
+                "endLine": 53,
                 "startOffset": 13,
                 "endOffset": 35
               },
@@ -79410,8 +79410,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79440,8 +79440,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 52,
-                "endLine": 52,
+                "startLine": 53,
+                "endLine": 53,
                 "startOffset": 29,
                 "endOffset": 34
               },
@@ -79456,8 +79456,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79466,8 +79466,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 55,
-                "endLine": 55,
+                "startLine": 56,
+                "endLine": 56,
                 "startOffset": 4,
                 "endOffset": 37
               },
@@ -79476,8 +79476,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 52,
-                "endLine": 52,
+                "startLine": 53,
+                "endLine": 53,
                 "startOffset": 13,
                 "endOffset": 35
               },
@@ -79502,8 +79502,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_assignment_op_01_bad.cpp",
               "textRange": {
-                "startLine": 52,
-                "endLine": 52,
+                "startLine": 53,
+                "endLine": 53,
                 "startOffset": 29,
                 "endOffset": 34
               },
@@ -79542,11 +79542,11 @@
       "severity": "BLOCKER",
       "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
       "project": "ingo-sonar_juliet-test-suite-c-cplusplus",
-      "line": 32,
+      "line": 33,
       "hash": "de08b692f3304718b0df8e3ca6774ccc",
       "textRange": {
-        "startLine": 32,
-        "endLine": 32,
+        "startLine": 33,
+        "endLine": 33,
         "startOffset": 12,
         "endOffset": 26
       },
@@ -79556,8 +79556,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79566,8 +79566,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 62,
-                "endLine": 62,
+                "startLine": 63,
+                "endLine": 63,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79576,8 +79576,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 62,
-                "endLine": 62,
+                "startLine": 63,
+                "endLine": 63,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79586,8 +79586,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79596,8 +79596,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 62,
-                "endLine": 62,
+                "startLine": 63,
+                "endLine": 63,
                 "startOffset": 0,
                 "endOffset": 1
               },
@@ -79606,8 +79606,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 56,
-                "endLine": 56,
+                "startLine": 57,
+                "endLine": 57,
                 "startOffset": 13,
                 "endOffset": 34
               },
@@ -79646,8 +79646,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 56,
-                "endLine": 56,
+                "startLine": 57,
+                "endLine": 57,
                 "startOffset": 13,
                 "endOffset": 34
               },
@@ -79661,8 +79661,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79691,8 +79691,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 56,
-                "endLine": 56,
+                "startLine": 57,
+                "endLine": 57,
                 "startOffset": 28,
                 "endOffset": 33
               },
@@ -79707,8 +79707,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 32,
-                "endLine": 32,
+                "startLine": 33,
+                "endLine": 33,
                 "startOffset": 12,
                 "endOffset": 26
               },
@@ -79717,8 +79717,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 59,
-                "endLine": 59,
+                "startLine": 60,
+                "endLine": 60,
                 "startOffset": 4,
                 "endOffset": 48
               },
@@ -79727,8 +79727,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 56,
-                "endLine": 56,
+                "startLine": 57,
+                "endLine": 57,
                 "startOffset": 4,
                 "endOffset": 35
               },
@@ -79753,8 +79753,8 @@
             {
               "component": "ingo-sonar_juliet-test-suite-c-cplusplus:testcases/CWE415_Double_Free/s02/CWE415_Double_Free__no_copy_const_01_bad.cpp",
               "textRange": {
-                "startLine": 56,
-                "endLine": 56,
+                "startLine": 57,
+                "endLine": 57,
                 "startOffset": 28,
                 "endOffset": 33
               },

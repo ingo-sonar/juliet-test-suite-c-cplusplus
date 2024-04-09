@@ -9676,26 +9676,6 @@
                                 },
                                 "region": {
                                     "startColumn": 5,
-                                    "startLine": 47
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "Memory pointed to by 'data' freed twice"
-                    },
-                    "ruleId": "double-free"
-                },
-                {
-                    "level": "warning",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "../testcases/CWE415_Double_Free/s01/CWE415_Double_Free__malloc_free_struct_74b.cpp"
-                                },
-                                "region": {
-                                    "startColumn": 5,
                                     "startLine": 35
                                 }
                             }
@@ -9723,6 +9703,26 @@
                     ],
                     "message": {
                         "text": "Memory pointed to by '__p' freed twice"
+                    },
+                    "ruleId": "double-free"
+                },
+                {
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "../testcases/CWE415_Double_Free/s01/CWE415_Double_Free__malloc_free_struct_74b.cpp"
+                                },
+                                "region": {
+                                    "startColumn": 5,
+                                    "startLine": 47
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "Memory pointed to by 'data' freed twice"
                     },
                     "ruleId": "double-free"
                 }

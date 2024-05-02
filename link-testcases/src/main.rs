@@ -30,9 +30,13 @@ fn run(folder: PathBuf) {
         let entry = entry.file_name();
         let file_name = entry.to_str().expect("file name?");
         if let Some(base_name) = file_name.strip_suffix(".bc") {
-            let pos = base_name.rfind(|x: char| x.is_numeric()).expect("no number?");
-            let group_name: String = base_name.chars().take(pos + 1).collect();
-            map.entry(group_name).or_default().push(file_name.to_string());
+            let pos = base_name.rfind(|x: char| x.is_numeric());
+            if let Some(pos) = pos {
+                let group_name: String = base_name.chars().take(pos + 1).collect();
+                map.entry(group_name).or_default().push(file_name.to_string());
+            } else {
+                log::warn!("skipped file {file_name}!");
+            }
         }
     }
 

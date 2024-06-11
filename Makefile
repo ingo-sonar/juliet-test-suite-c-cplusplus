@@ -13,7 +13,7 @@ SUPPORT_SRCS=$(addprefix $(SUPPORT_PATH),main_linux.cpp io.c std_thread.c)
 SUPPORT_OBJS=$(addsuffix .o,$(SUPPORT_SRCS))
 
 # Partial files
-MAKE_FILES=$(wildcard testcases/*/s*/Makefile) $(wildcard testcases/*/Makefile)
+MAKE_FILES=$(wildcard testcases/CWE78_*/s*/Makefile) $(wildcard testcases/CWE78_*/Makefile)
 PARTIALS=$(patsubst %Makefile,%partial,$(MAKE_FILES))
 INDIVIDUALS=$(patsubst %Makefile,%individuals,$(MAKE_FILES))
 

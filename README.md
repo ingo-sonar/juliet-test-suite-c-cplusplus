@@ -24,3 +24,16 @@ sonar-scanner.bat --define sonar.cfamily.build-wrapper-output=build
 REM ./run-sonarqube-download.sh (on linux)
 rm -rf build
 ```
+
+## Sonarqube CWE78 - Windows
+* see https://docs.sonarsource.com/sonarqube/9.9/analyzing-source-code/languages/c-family/#using-build-wrapper
+* Run in Developer Command Prompt:
+```batch
+cd C:\Users\T14\git\juliet-test-suite-c-cplusplus
+<delete build folder>
+<delete .scannerwork>
+<edit wildcard in compile-all.bat or better delete all other source files>
+<delete *.obj and *.lib recursively>
+build-wrapper --out-dir build compile_all.bat
+sonar-scanner
+```

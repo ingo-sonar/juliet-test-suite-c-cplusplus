@@ -6,3 +6,5 @@ phasar-cwe*
 *.zip
 *.o
 *.exe
+*.obj
+*.lib

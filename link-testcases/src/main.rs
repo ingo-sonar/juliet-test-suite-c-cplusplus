@@ -43,6 +43,7 @@ fn run(folder: PathBuf) {
     for (key, values) in map {
         if values.len() > 1 {
             log::info!("linking {:?} into {key}.bc", values);
+            //let status = Command::new("C:\\msys64\\usr\\bin\\llvm-link-14")
             let status = Command::new("llvm-link-14")
                 .arg("-o")
                 .arg(format!("{key}.bc"))

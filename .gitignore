@@ -2,3 +2,9 @@
 .idea
 phasar
 build
+phasar-cwe*
+*.zip
+*.o
+*.exe
+*.obj
+*.lib

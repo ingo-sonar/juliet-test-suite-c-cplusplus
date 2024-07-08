@@ -29,6 +29,7 @@ class BadClass
 
         ~BadClass()
         {
+            /* POTENTIAL FLAW: Possibly deleting memory twice */
             delete [] data;
         }
 

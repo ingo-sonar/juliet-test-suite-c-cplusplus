@@ -60,7 +60,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
 
     let mut test_cases: Vec<JulietTestCase> = vec!();
 
-    for entry in WalkDir::new("../testcases/CWE415_Double_Free")
+    for entry in WalkDir::new("../testcases/CWE476_NULL_Pointer_Dereference")
         .into_iter()
         .filter_map(|e| e.ok())
     {
@@ -68,22 +68,30 @@ fn generate_ground_truth() -> JulietGroundTruth {
 
         if file.ends_with(".c") || file.ends_with(".cpp") {
             let text = std::fs::read_to_string(entry.path()).expect("read");
-            for (num, line) in text.lines().enumerate() {
-                let num = num + 1; // line numbers start at 1
+            let lines: Vec<&str> = text.lines().collect();
+            for (mut num, line) in lines.iter().enumerate() {
                 if line.contains("#ifndef OMITGOOD") {
                     // We assume that the bad tests always come before the good tests.
                     // This seems to hold as the test cases are auto-generated.
                     break;
                 }
-                if line.contains("POTENTIAL FLAW: Possibly freeing memory twice") || line.contains("POTENTIAL FLAW: Possibly deleting memory twice") {
-                    let reported_line = num + 1; // Report next line
+                if line.contains("FLAW:") {
+                    let mut comment_len = 0;
+                    while !lines[num].ends_with("*/") {
+                        num += 1;
+                        comment_len += 1;
+                        if comment_len > 3 { panic!("check long comment?!"); }
+                    }
+                    
+                    let mut reported_line = num + 2; // +1 (Report next line) +1 (line numbers start at 1)
+                    
                     test_cases.push(JulietTestCase {
                         files: vec!(
                             JulietFile {
                                 path: file.to_string(),
                                 flaws: Some(vec!(
                                     JulietFlaw {
-                                        name: "CWE-415: Double Free".to_string(),
+                                        name: "CWE476: NULL Pointer Dereference".to_string(),
                                         line: reported_line.to_string(),
                                     }
                                 ))

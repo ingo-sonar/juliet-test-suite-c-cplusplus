@@ -60,7 +60,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
 
     let mut test_cases: Vec<JulietTestCase> = vec!();
 
-    for entry in WalkDir::new("../testcases/CWE476_NULL_Pointer_Dereference")
+    for entry in WalkDir::new("../testcases/CWE416_Use_After_Free")
         .into_iter()
         .filter_map(|e| e.ok())
     {
@@ -75,7 +75,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
                     // This seems to hold as the test cases are auto-generated.
                     break;
                 }
-                if line.contains("FLAW:") {
+                if line.contains("FLAW:") && !line.contains("Free data in the source") && !line.contains("Freeing") {
                     let mut comment_len = 0;
                     while !lines[num].ends_with("*/") {
                         num += 1;
@@ -83,7 +83,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
                         if comment_len > 3 { panic!("check long comment?!"); }
                     }
                     
-                    let mut reported_line = num + 2; // +1 (Report next line) +1 (line numbers start at 1)
+                    let reported_line = num + 2; // +1 (Report next line) +1 (line numbers start at 1)
                     
                     test_cases.push(JulietTestCase {
                         files: vec!(
@@ -91,7 +91,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
                                 path: file.to_string(),
                                 flaws: Some(vec!(
                                     JulietFlaw {
-                                        name: "CWE476: NULL Pointer Dereference".to_string(),
+                                        name: "CWE416: Use After Free".to_string(),
                                         line: reported_line.to_string(),
                                     }
                                 ))

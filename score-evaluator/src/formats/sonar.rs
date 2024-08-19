@@ -11,6 +11,7 @@ pub fn parse_sonar_results(input: PathBuf) -> ScanResult {
     let mut results = ScanResult::default();
     for issue in sonar_issues.into_iter().flatten() {
         //if issue.severity != "BLOCKER" { continue; }
+        if !issue.message.contains("Use of memory after it is freed") { continue; }
         if !issue.tags.contains("cwe") { continue; }
         let location = ScanLocation {
             file: issue.component.split('/').last().expect("prefix").to_string(),
@@ -27,4 +28,5 @@ struct SonarIssue {
     component: String,
     severity: String,
     tags: HashSet<String>,
+    message: String,
 }

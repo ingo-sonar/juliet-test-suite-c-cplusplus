@@ -1,11 +1,11 @@
 {
   "metrics": {
-    "num_true_positives": 390,
-    "num_false_positives": 0,
-    "num_false_negatives": 69,
-    "precision": 1.0,
-    "recall": 0.8496732,
-    "f1_rate": 0.9187279
+    "num_true_positives": 389,
+    "num_false_positives": 1,
+    "num_false_negatives": 70,
+    "precision": 0.99743587,
+    "recall": 0.84749454,
+    "f1_rate": 0.9163722
   },
   "true_positives": [
     "CWE416_Use_After_Free__malloc_free_char_01.c:36",
@@ -379,7 +379,6 @@
     "CWE416_Use_After_Free__new_delete_wchar_t_17.cpp:42",
     "CWE416_Use_After_Free__new_delete_wchar_t_18.cpp:40",
     "CWE416_Use_After_Free__new_delete_wchar_t_43.cpp:42",
-    "CWE416_Use_After_Free__operator_equals_01_bad.cpp:51",
     "CWE416_Use_After_Free__return_freed_ptr_01.c:35",
     "CWE416_Use_After_Free__return_freed_ptr_02.c:35",
     "CWE416_Use_After_Free__return_freed_ptr_03.c:35",
@@ -399,7 +398,7 @@
     "CWE416_Use_After_Free__return_freed_ptr_17.c:35",
     "CWE416_Use_After_Free__return_freed_ptr_18.c:35"
   ],
-  "false_positives": [],
+  "false_positives": ["CWE416_Use_After_Free__operator_equals_01_bad.cpp:51"],
   "false_negatives": [
     "CWE416_Use_After_Free__malloc_free_char_62a.cpp:37",
     "CWE416_Use_After_Free__malloc_free_char_63b.c:28",
@@ -469,6 +468,7 @@
     "CWE416_Use_After_Free__new_delete_struct_64b.cpp:34",
     "CWE416_Use_After_Free__new_delete_wchar_t_62a.cpp:37",
     "CWE416_Use_After_Free__new_delete_wchar_t_63b.cpp:31",
-    "CWE416_Use_After_Free__new_delete_wchar_t_64b.cpp:34"
+    "CWE416_Use_After_Free__new_delete_wchar_t_64b.cpp:34",
+    "CWE416_Use_After_Free__operator_equals_01_bad.cpp:52"
   ]
 }

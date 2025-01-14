@@ -99,12 +99,15 @@ pub struct JulietTestCase {
 }
 #[derive(Serialize, Deserialize)]
 pub struct JulietFile {
+    // #[serde(rename = "@path")]
     pub path: String,
-    #[serde[rename = "flaw"]]
+    //#[serde[rename = "flaw"]]
     pub flaws: Option<Vec<JulietFlaw>>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct JulietFlaw {
+    //#[serde(rename = "@name")]
     pub name: String,
+    //#[serde(rename = "@line")]
     pub line: String,
 }

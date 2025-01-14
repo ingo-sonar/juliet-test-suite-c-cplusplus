@@ -46,8 +46,8 @@ class BadClass
         
         BadClass& operator=(const BadClass& badClassObject) 
         {
-            /* No check for self-assignment */
-            delete [] this->name;
+            /* No check for self-assignment */  delete [] this->name;
+            /* POTENTIAL FLAW: Use of data that may have been deleted */
             this->name = new char[strlen(badClassObject.name)+1]; 
             strcpy(this->name, badClassObject.name); /* FLAW - if this is a self-assignment, 
                 badClassObject.name has already been deleted, so this is a use after free (CWE-416). */

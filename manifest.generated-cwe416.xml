@@ -4,61 +4,16 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
             </flaw>
         </file>
     </testcase>
@@ -76,34 +31,7 @@
             <path>CWE416_Use_After_Free__new_delete_class_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -121,57 +49,12 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -181,46 +64,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_class_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>60</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -253,82 +100,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int64_t_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -343,46 +118,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_08.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>56</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -400,25 +139,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
             </flaw>
         </file>
     </testcase>
@@ -436,61 +157,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_02.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -508,61 +175,7 @@
             <path>CWE416_Use_After_Free__new_delete_long_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
             </flaw>
         </file>
     </testcase>
@@ -572,15 +185,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>55</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -607,43 +211,7 @@
             <path>CWE416_Use_After_Free__new_delete_int64_t_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -653,15 +221,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>56</line>
             </flaw>
         </file>
     </testcase>
@@ -679,39 +238,12 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_class_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -724,25 +256,7 @@
             <path>CWE416_Use_After_Free__new_delete_char_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -760,33 +274,6 @@
             <path>CWE416_Use_After_Free__new_delete_int64_t_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>35</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>37</line>
             </flaw>
         </file>
@@ -797,24 +284,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -832,34 +301,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -877,34 +319,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_18.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>40</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -949,15 +364,6 @@
             <path>CWE416_Use_After_Free__new_delete_int64_t_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
@@ -967,25 +373,7 @@
             <path>CWE416_Use_After_Free__new_delete_struct_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -1003,25 +391,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -1039,15 +409,6 @@
             <path>CWE416_Use_After_Free__new_delete_int_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -1057,25 +418,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -1090,33 +433,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -1129,34 +445,7 @@
             <path>CWE416_Use_After_Free__new_delete_struct_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -1174,15 +463,6 @@
             <path>CWE416_Use_After_Free__new_delete_wchar_t_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
@@ -1190,42 +470,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_array_char_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
@@ -1243,33 +487,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_long_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -1282,52 +499,16 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_02.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_long_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
             </flaw>
         </file>
     </testcase>
@@ -1337,15 +518,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
             </flaw>
         </file>
     </testcase>
@@ -1363,25 +535,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_17.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
             </flaw>
         </file>
     </testcase>
@@ -1399,25 +553,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>55</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -1432,46 +568,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>40</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_struct_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -1489,52 +589,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>57</line>
             </flaw>
         </file>
     </testcase>
@@ -1552,25 +607,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
             </flaw>
         </file>
     </testcase>
@@ -1588,25 +625,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
             </flaw>
         </file>
     </testcase>
@@ -1633,24 +652,6 @@
             <path>CWE416_Use_After_Free__new_delete_wchar_t_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -1666,37 +667,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_long_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_17.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -1711,33 +685,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -1747,24 +694,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -1777,34 +706,7 @@
             <path>CWE416_Use_After_Free__new_delete_class_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -1822,34 +724,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -1859,33 +734,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -1903,25 +751,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -1957,34 +787,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -1994,15 +797,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
             </flaw>
         </file>
     </testcase>
@@ -2029,15 +823,6 @@
             <path>CWE416_Use_After_Free__new_delete_class_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -2045,42 +830,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_int_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
@@ -2101,15 +850,6 @@
             <path>CWE416_Use_After_Free__new_delete_int_08.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>55</line>
             </flaw>
         </file>
@@ -2119,34 +859,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -2164,24 +877,6 @@
             <path>CWE416_Use_After_Free__new_delete_struct_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>38</line>
             </flaw>
         </file>
@@ -2192,15 +887,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
             </flaw>
         </file>
     </testcase>
@@ -2227,43 +913,7 @@
             <path>CWE416_Use_After_Free__new_delete_long_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -2278,33 +928,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -2314,37 +937,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int64_t_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -2371,25 +967,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_18.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -2413,37 +991,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_08.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>55</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
             </flaw>
         </file>
     </testcase>
@@ -2467,46 +1018,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_class_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>55</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -2524,43 +1039,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -2570,15 +1049,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>35</line>
             </flaw>
         </file>
     </testcase>
@@ -2602,37 +1072,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_long_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int64_t_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
             </flaw>
         </file>
     </testcase>
@@ -2650,34 +1093,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_class_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -2687,15 +1103,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -2710,24 +1117,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -2737,55 +1126,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_char_08.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>56</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -2803,15 +1147,6 @@
             <path>CWE416_Use_After_Free__new_delete_class_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
             </flaw>
         </file>
@@ -2821,34 +1156,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -2866,25 +1174,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>55</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -2899,28 +1189,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_char_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_64b.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>34</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -2944,24 +1216,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -2971,24 +1225,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_long_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -2998,37 +1234,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
             </flaw>
         </file>
     </testcase>
@@ -3043,55 +1252,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_class_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -3115,37 +1279,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>56</line>
             </flaw>
         </file>
     </testcase>
@@ -3163,15 +1300,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
             </flaw>
         </file>
@@ -3179,24 +1307,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_array_char_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
@@ -3217,43 +1327,7 @@
             <path>CWE416_Use_After_Free__new_delete_long_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -3271,25 +1345,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -3299,33 +1355,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -3335,24 +1364,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -3376,60 +1387,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_struct_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -3442,34 +1399,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -3502,24 +1432,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_char_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -3538,46 +1450,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -3595,25 +1471,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -3631,15 +1489,6 @@
             <path>CWE416_Use_After_Free__new_delete_int64_t_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -3649,25 +1498,7 @@
             <path>CWE416_Use_After_Free__new_delete_long_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
             </flaw>
         </file>
     </testcase>
@@ -3685,25 +1516,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -3721,15 +1534,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
@@ -3737,51 +1541,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
@@ -3794,15 +1553,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -3817,37 +1567,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_struct_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>35</line>
             </flaw>
         </file>
     </testcase>
@@ -3857,15 +1580,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
             </flaw>
         </file>
     </testcase>
@@ -3880,24 +1594,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_18.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -3907,24 +1603,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_struct_18.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -3937,34 +1615,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -3982,61 +1633,16 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_class_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -4054,43 +1660,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_02.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>61</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_06.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -4108,25 +1678,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -4141,46 +1693,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_12.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -4204,28 +1720,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_long_63b.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>31</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
             </flaw>
         </file>
     </testcase>
@@ -4243,15 +1741,6 @@
             <path>CWE416_Use_After_Free__new_delete_wchar_t_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>35</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>37</line>
             </flaw>
         </file>
@@ -4261,43 +1750,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -4307,15 +1760,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -4351,15 +1795,6 @@
             <path>CWE416_Use_After_Free__new_delete_long_08.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>50</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>55</line>
             </flaw>
         </file>
@@ -4367,33 +1802,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
@@ -4411,37 +1819,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
             </flaw>
         </file>
     </testcase>
@@ -4477,25 +1858,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_02.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -4513,24 +1876,6 @@
             <path>CWE416_Use_After_Free__new_delete_struct_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -4541,15 +1886,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -4576,25 +1912,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_class_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -4604,33 +1922,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -4648,15 +1939,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
             </flaw>
         </file>
@@ -4664,51 +1946,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_17.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
@@ -4729,34 +1966,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_16.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -4774,25 +1984,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -4810,15 +2002,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
             </flaw>
         </file>
@@ -4828,34 +2011,7 @@
             <path>CWE416_Use_After_Free__new_delete_struct_43.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -4870,15 +2026,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_class_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_63b.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -4888,52 +2035,7 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_01.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
@@ -4951,37 +2053,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -4999,25 +2074,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
             </flaw>
         </file>
     </testcase>
@@ -5044,34 +2101,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>57</line>
             </flaw>
         </file>
     </testcase>
@@ -5089,76 +2119,13 @@
             <path>CWE416_Use_After_Free__new_delete_long_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>41</line>
             </flaw>
         </file>
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>52</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_13.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
@@ -5176,24 +2143,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_12.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -5204,51 +2153,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_wchar_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_06.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
@@ -5275,37 +2179,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_long_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -5323,25 +2200,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -5359,15 +2218,6 @@
             <path>CWE416_Use_After_Free__new_delete_char_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
@@ -5377,43 +2227,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>33</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_02.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -5423,15 +2237,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -5467,25 +2272,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_17.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -5500,73 +2287,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>45</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_17.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_62a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_63a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_06.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
             </flaw>
         </file>
     </testcase>
@@ -5584,25 +2308,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_17.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_17.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -5620,25 +2326,7 @@
             <path>CWE416_Use_After_Free__new_delete_long_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -5656,15 +2344,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_class_16.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_16.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
             </flaw>
         </file>
@@ -5672,51 +2351,6 @@
     <testcase>
         <file>
             <path>CWE416_Use_After_Free__new_delete_int64_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_05.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_18.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
@@ -5734,15 +2368,6 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>51</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_long_64b.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
@@ -5752,55 +2377,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__new_delete_int_62b.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_13.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_struct_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -5818,24 +2398,6 @@
             <path>CWE416_Use_After_Free__new_delete_int_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -5851,46 +2413,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_18.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>40</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_08.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>56</line>
             </flaw>
         </file>
     </testcase>
@@ -5908,25 +2434,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -5941,46 +2449,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_07.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_int_10.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_43.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>32</line>
             </flaw>
         </file>
     </testcase>
@@ -5995,46 +2467,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_10.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_01.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>35</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_01.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_10.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -6044,24 +2480,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_63b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>28</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>50</line>
             </flaw>
         </file>
     </testcase>
@@ -6079,34 +2497,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>53</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -6124,25 +2515,7 @@
             <path>CWE416_Use_After_Free__new_delete_wchar_t_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_wchar_t_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
             </flaw>
         </file>
     </testcase>
@@ -6157,37 +2530,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_14.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_class_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_long_18.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -6205,34 +2551,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_04.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -6250,15 +2569,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_int_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>54</line>
             </flaw>
         </file>
@@ -6268,25 +2578,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_long_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_long_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>54</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -6296,15 +2588,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
             </flaw>
         </file>
     </testcase>
@@ -6322,15 +2605,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_wchar_t_07.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_wchar_t_07.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
             </flaw>
         </file>
@@ -6340,25 +2614,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_05.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int64_t_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -6376,15 +2632,6 @@
             <path>CWE416_Use_After_Free__new_delete_array_struct_03.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_struct_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
             </flaw>
         </file>
@@ -6394,34 +2641,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_class_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>44</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_03.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>46</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>42</line>
             </flaw>
         </file>
     </testcase>
@@ -6439,25 +2659,7 @@
             <path>CWE416_Use_After_Free__new_delete_class_15.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_class_15.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>49</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_02.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>44</line>
             </flaw>
         </file>
     </testcase>
@@ -6475,15 +2677,6 @@
             <path>CWE416_Use_After_Free__new_delete_char_09.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_09.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
             </flaw>
         </file>
@@ -6493,25 +2686,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_char_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>37</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_char_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_class_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>43</line>
             </flaw>
         </file>
     </testcase>
@@ -6526,37 +2701,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_struct_11.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_array_int_64b.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>34</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_03.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
             </flaw>
         </file>
     </testcase>
@@ -6583,25 +2731,7 @@
             <path>CWE416_Use_After_Free__new_delete_array_int64_t_14.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_14.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>47</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_12.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
             </flaw>
         </file>
     </testcase>
@@ -6616,73 +2746,10 @@
     </testcase>
     <testcase>
         <file>
-            <path>CWE416_Use_After_Free__malloc_free_int64_t_64b.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>31</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>39</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_char_11.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>36</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
             <path>CWE416_Use_After_Free__new_delete_char_11.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_64a.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>38</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_wchar_t_09.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>41</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_long_08.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>59</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_array_int64_t_05.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>49</line>
             </flaw>
         </file>
     </testcase>
@@ -6700,25 +2767,7 @@
             <path>CWE416_Use_After_Free__new_delete_int_04.cpp</path>
             <flaw>
                 <name>CWE416: Use After Free</name>
-                <line>43</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_int_04.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
                 <line>48</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__new_delete_struct_13.cpp</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>37</line>
             </flaw>
         </file>
     </testcase>
@@ -6728,15 +2777,6 @@
             <flaw>
                 <name>CWE416: Use After Free</name>
                 <line>42</line>
-            </flaw>
-        </file>
-    </testcase>
-    <testcase>
-        <file>
-            <path>CWE416_Use_After_Free__malloc_free_char_15.c</path>
-            <flaw>
-                <name>CWE416: Use After Free</name>
-                <line>48</line>
             </flaw>
         </file>
     </testcase>

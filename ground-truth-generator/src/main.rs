@@ -75,7 +75,7 @@ fn generate_ground_truth() -> JulietGroundTruth {
                     // This seems to hold as the test cases are auto-generated.
                     break;
                 }
-                if line.contains("FLAW:") && !line.contains("Free data in the source") && !line.contains("Freeing") {
+                if line.contains("FLAW:") && line.contains("Use of data that may have been deleted") {
                     let mut comment_len = 0;
                     while !lines[num].ends_with("*/") {
                         num += 1;

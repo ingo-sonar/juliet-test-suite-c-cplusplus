@@ -13,13 +13,12 @@ pub fn parse_sonar_results(input: PathBuf) -> ScanResult {
     let sonar_issues: Vec<Vec<SonarIssue>> = serde_json::from_str(&contents).expect("invalid json");
     let mut results = ScanResult::default();
     for issue in sonar_issues.into_iter().flatten() {
-        // if CWE416 {
-        //     if !issue.message.contains("Use of memory after it is freed") { continue; }
-        // }
-        // if CWE415 {
-        //     if !issue.message.contains("Attempt to free released memory") { continue; }
-        // }
-        if issue.severity != "BLOCKER" { continue; }
+        if CWE416 {
+            if !issue.message.contains("Use of memory after it is freed") { continue; }
+        }
+        if CWE415 {
+            if !issue.message.contains("Attempt to free released memory") { continue; }
+        }
         if !issue.tags.contains("cwe") { continue; }
         let location = ScanLocation {
             file: issue.component.split('/').last().expect("prefix").to_string(),

@@ -8,8 +8,11 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/<executable file>",
-            "args": [],
+            "program": "${workspaceFolder}/score-evaluator/target/debug/score-evaluator",
+            "args": [
+                "--results-json=results-sonarqube-cwe415.json",
+                "--format=sonarqube", "--manifest-xml=manifest.generated-cwe415.xml", "--output=score-sonarqube-cwe415.json"
+            ],
             "cwd": "${workspaceFolder}"
         }
     ]
